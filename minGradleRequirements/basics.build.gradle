@@ -1,0 +1,20 @@
+defaultTasks 'hello'
+
+task ('hello').doLast {
+	println "hello world"
+}
+
+def s1 = "a string1"
+println s1
+
+def s3 = """ 
+A multi line
+String
+"""
+println s3
+
+def x = 4;
+println "x is $x"
+
+def myCourse = 'Gradle'
+println "I am ${myCourse}"
