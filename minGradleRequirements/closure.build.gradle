@@ -1,0 +1,56 @@
+defaultTasks 'hello'
+
+task ('hello').doLast {
+	println "hello world"
+}
+
+//closures
+
+def echoIt = {
+	println "hello world!"
+}
+
+println echoIt()
+
+def echoIt2 = { parameter -> 
+	println parameter
+}
+
+echoIt2("helloe world from param")
+
+//using it
+def echoIt3 = { println it }
+echoIt3("hello world from param less it") 
+
+def echoIt4 = { a, b, c -> 
+	println a
+	println b
+	println c
+}
+echoIt4("a", "b", "c")
+
+//pass closure as parameters
+def oneArgMethod (closure) {
+	closure() *2
+}
+println oneArgMethod { 4 }
+
+def twoArgMethod (a , cb) {
+	cb () * a
+}
+println twoArgMethod (5, { 2 })
+
+
+//closure resolution
+class Person {
+	String name = "Fred"
+	Closure nameSayer = {
+		println name
+	}
+}
+
+def p1 = new Person()
+p1.name = "Bill"
+p1.nameSayer()
+
+
