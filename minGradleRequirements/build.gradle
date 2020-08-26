@@ -1,12 +1,1 @@
-logger.info "hello"
-
-apply {
-	println "hello again !"
-}
-
-logger.info ">>> build.gradle : ${gradle.gradleVersion}"
-logger.info ">>> build.gradle : ${gradle.gradleHomeDir}"
-logger.info ">>> build.gradle : ${gradle.gradleUserHomeDir}"
-
-logger.info ">>> build.gradle: build file actual path {$buildFile}"
-logger.info ">>> build.gradle: build file relative path ${(relativePath(buildFile))}"
+logger.info "Reading from property : ${ gradlePropertiesProp }"
