@@ -1,0 +1,32 @@
+logger.info ">>> build.gradle --->  this is executed during the configuration phase - time stamp "
+
+task hi
+
+project.hi.doLast {
+	logger.info "Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+}
+
+task hello {
+	description = "Log the name of the task "
+	group = "welcome"
+	
+	doFirst {
+		logger.info "My name is : ${name} and this is the 1st defined action"
+	}
+	
+	doLast { 
+		logger.info "My name is : ${name} and this is the 2nd defined action"
+	}
+}
+
+task doFinished (dependsOn: 'doMiddle') {
+	logger.info "do finished"	
+}
+
+task doMiddle (dependsOn: 'doStartFirst') {
+	logger.info "do middle"
+}
+
+task doStartFirst (dependsOn: ['hi', 'hello']) {
+	logger.info "do first"
+}
