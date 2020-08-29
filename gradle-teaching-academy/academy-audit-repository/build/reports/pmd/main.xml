@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2020-08-30T00:06:42.530">
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-audit-repository\src\main\java\com\denofprogramming\repository\AuditRepository.java">
+<violation beginline="5" endline="19" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="com.denofprogramming.repository" class="AuditRepository" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="19" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="AuditRepository" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.repository" class="AuditRepository" method="read" variable="domainObject" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'domainObject' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="11" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="AuditRepository" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="14" endline="14" begincolumn="35" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.repository" class="AuditRepository" method="update" variable="domainObject" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'domainObject' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="17" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="AuditRepository" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+</pmd>

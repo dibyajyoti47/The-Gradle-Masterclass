@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2020-08-30T00:06:49.995">
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-courses-interface\src\main\java\com\denofprogramming\controller\CourseControllerInterface.java">
+<violation beginline="5" endline="7" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.controller" class="CourseControllerInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-courses-interface\src\main\java\com\denofprogramming\model\Course.java">
+<violation beginline="3" endline="25" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Course" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Course" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="9" endline="11" begincolumn="16" endcolumn="9" rule="UnnecessaryConstructor" ruleset="Controversial" package="com.denofprogramming.model" class="Course" method="Course" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="9" endline="11" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Course" method="Course" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="13" endline="15" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Course" method="getName" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="17" endline="17" begincolumn="29" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.model" class="Course" method="setName" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="19" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Course" method="setName" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="22" endline="24" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Course" method="toString" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-courses-interface\src\main\java\com\denofprogramming\repository\CourseRepositoryInterface.java">
+<violation beginline="5" endline="7" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="CourseRepositoryInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-courses-interface\src\main\java\com\denofprogramming\service\CourseServiceInterface.java">
+<violation beginline="5" endline="8" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.service" class="CourseServiceInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+</pmd>

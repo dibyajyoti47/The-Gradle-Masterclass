@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2020-08-30T00:07:07.045">
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-registration-interface\src\main\java\com\denofprogramming\controller\RegistrationControllerInterface.java">
+<violation beginline="5" endline="7" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.controller" class="RegistrationControllerInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-registration-interface\src\main\java\com\denofprogramming\model\Registration.java">
+<violation beginline="5" endline="43" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="32" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" variable="student" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="30" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" variable="course" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="10" endline="10" begincolumn="17" endcolumn="36" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" variable="registeredDate" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="12" endline="14" begincolumn="16" endcolumn="9" rule="UnnecessaryConstructor" ruleset="Controversial" package="com.denofprogramming.model" class="Registration" method="Registration" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="12" endline="14" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="Registration" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="16" endline="18" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="getStudent" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="19" endline="19" begincolumn="32" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.model" class="Registration" method="setStudent" variable="student" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'student' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="21" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="setStudent" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="23" endline="25" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="getCourse" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="26" endline="26" begincolumn="31" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.model" class="Registration" method="setCourse" variable="course" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'course' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="28" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="setCourse" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="30" endline="32" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="getRegisteredDate" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="34" endline="34" begincolumn="39" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.model" class="Registration" method="setRegisteredDate" variable="registeredDate" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'registeredDate' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="36" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="setRegisteredDate" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="39" endline="41" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Registration" method="toString" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-registration-interface\src\main\java\com\denofprogramming\repository\RegistrationRepositoryInterface.java">
+<violation beginline="5" endline="7" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="RegistrationRepositoryInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-registration-interface\src\main\java\com\denofprogramming\service\RegistrationServiceInterface.java">
+<violation beginline="5" endline="8" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.service" class="RegistrationServiceInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2020-08-30T00:07:31.517">
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-student-interface\src\main\java\com\denofprogramming\controller\StudentControllerInterface.java">
+<violation beginline="5" endline="7" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.controller" class="StudentControllerInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-student-interface\src\main\java\com\denofprogramming\model\Student.java">
+<violation beginline="3" endline="17" begincolumn="35" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.denofprogramming.model" class="Student" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="17" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Student" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="5" endline="7" begincolumn="16" endcolumn="9" rule="UnnecessaryConstructor" ruleset="Controversial" package="com.denofprogramming.model" class="Student" method="Student" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="5" endline="7" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Student" method="Student" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="9" endline="15" begincolumn="23" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="Student" method="valueOf" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-student-interface\src\main\java\com\denofprogramming\service\StudentServiceInterface.java">
+<violation beginline="5" endline="8" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.service" class="StudentServiceInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+</pmd>

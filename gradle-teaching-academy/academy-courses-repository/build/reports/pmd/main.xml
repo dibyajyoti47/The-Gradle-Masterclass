@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2020-08-30T00:06:53.932">
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-courses-repository\src\main\java\com\denofprogramming\repository\CourseRepository.java">
+<violation beginline="10" endline="34" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="com.denofprogramming.repository" class="CourseRepository" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="34" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="CourseRepository" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="13" endline="13" begincolumn="30" endcolumn="114" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="CourseRepository" variable="logger" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="16" endline="16" begincolumn="28" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.repository" class="CourseRepository" method="read" variable="domain" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'domain' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="25" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="CourseRepository" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="107" rule="LawOfDemeter" ruleset="Coupling" package="com.denofprogramming.repository" class="CourseRepository" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="107" rule="LawOfDemeter" ruleset="Coupling" package="com.denofprogramming.repository" class="CourseRepository" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="23" endline="23" begincolumn="17" endcolumn="107" rule="LawOfDemeter" ruleset="Coupling" package="com.denofprogramming.repository" class="CourseRepository" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="23" endline="23" begincolumn="17" endcolumn="107" rule="LawOfDemeter" ruleset="Coupling" package="com.denofprogramming.repository" class="CourseRepository" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="28" endline="28" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.repository" class="CourseRepository" method="update" variable="domain" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'domain' is not assigned and could be declared final
+</violation>
+<violation beginline="28" endline="30" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="CourseRepository" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+</pmd>

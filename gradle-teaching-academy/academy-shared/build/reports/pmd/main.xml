@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2020-08-30T00:07:14.806">
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-shared\src\main\java\com\denofprogramming\controller\ControllerInterface.java">
+<violation beginline="5" endline="11" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.controller" class="ControllerInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="7" endline="7" begincolumn="9" endcolumn="37" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.controller" class="ControllerInterface" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="9" endline="9" begincolumn="9" endcolumn="39" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.controller" class="ControllerInterface" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-shared\src\main\java\com\denofprogramming\model\DomainObject.java">
+<violation beginline="3" endline="51" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="9" endline="10" begincolumn="16" endcolumn="9" rule="UnnecessaryConstructor" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="DomainObject" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="9" endline="10" begincolumn="16" endcolumn="9" rule="UncommentedEmptyConstructor" ruleset="Design" package="com.denofprogramming.model" class="DomainObject" method="DomainObject" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="9" endline="10" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" method="DomainObject" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="12" endline="14" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" method="getId" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="16" endline="18" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" method="setId" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="21" endline="26" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" method="hashCode" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="22" endline="22" begincolumn="17" endcolumn="36" rule="AvoidFinalLocalVariable" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="hashCode" variable="prime" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#AvoidFinalLocalVariable" priority="3">
+Avoid using final local variables, turn them into fields
+</violation>
+<violation beginline="23" endline="24" begincolumn="17" endcolumn="76" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="hashCode" variable="result" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '23'-'24').
+</violation>
+<violation beginline="29" endline="29" begincolumn="31" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.model" class="DomainObject" method="equals" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="29" endline="43" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="30" endline="31" begincolumn="17" endcolumn="36" rule="IfStmtsMustUseBraces" ruleset="Braces" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="31" endline="31" begincolumn="25" endcolumn="36" rule="OnlyOneReturn" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="32" endline="33" begincolumn="17" endcolumn="37" rule="IfStmtsMustUseBraces" ruleset="Braces" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="33" endline="33" begincolumn="25" endcolumn="37" rule="OnlyOneReturn" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="34" endline="35" begincolumn="17" endcolumn="37" rule="IfStmtsMustUseBraces" ruleset="Braces" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="35" endline="35" begincolumn="25" endcolumn="37" rule="OnlyOneReturn" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="36" endline="36" begincolumn="17" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="com.denofprogramming.model" class="DomainObject" method="equals" variable="other" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'other' could be declared final
+</violation>
+<violation beginline="38" endline="39" begincolumn="25" endcolumn="45" rule="IfStmtsMustUseBraces" ruleset="Braces" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="39" endline="39" begincolumn="33" endcolumn="45" rule="OnlyOneReturn" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="40" endline="41" begincolumn="24" endcolumn="37" rule="IfStmtsMustUseBraces" ruleset="Braces" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="41" endline="41" begincolumn="25" endcolumn="37" rule="OnlyOneReturn" ruleset="Controversial" package="com.denofprogramming.model" class="DomainObject" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="46" endline="48" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.model" class="DomainObject" method="toString" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-shared\src\main\java\com\denofprogramming\repository\RepositoryInterface.java">
+<violation beginline="3" endline="10" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="RepositoryInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="37" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="RepositoryInterface" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="39" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.repository" class="RepositoryInterface" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\E\develop\The Gradle Masterclass\gradle-teaching-academy\academy-shared\src\main\java\com\denofprogramming\service\ServiceInterface.java">
+<violation beginline="5" endline="13" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.service" class="ServiceInterface" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="37" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.service" class="ServiceInterface" method="read" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="39" rule="CommentRequired" ruleset="Comments" package="com.denofprogramming.service" class="ServiceInterface" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+</pmd>
